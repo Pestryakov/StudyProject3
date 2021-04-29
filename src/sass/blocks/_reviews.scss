@@ -1,0 +1,37 @@
+.reviews {
+    padding-bottom: 71px;
+    &__title {
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #0d0d0d;
+        text-align: center;
+    }
+    &-block {
+        margin-top: 100px;
+        display: flex;
+        &:nth-child(2){
+            margin-top: 70px;
+        }
+        &__img {
+            margin-right: 60px;
+        }
+        &__title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #0d0d0d;
+        }
+        &__subtitle {
+            font-size: 14px;
+            font-weight: 300;
+            color: #646464;
+        }
+        &__text {
+            margin-top: 15px;
+            font-size: 16px;
+            font-weight: 300;
+            color: #0d0d0d;
+            line-height: 1.2;
+        }
+    }
+}

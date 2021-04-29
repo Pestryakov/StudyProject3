@@ -1,12 +1,17 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/slick';
 @import 'base/variables';
 @import 'base/mixins';
 @import 'base/media';
+@import 'base/animations';
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
 .container{
+    position: relative;
     max-width: 950px;
     margin: 0 auto;
 }
@@ -17,3 +22,9 @@
 @import 'blocks/buttons';
 @import 'blocks/consultation';
 @import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
